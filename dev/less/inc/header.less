@@ -7,7 +7,7 @@
 	}
 	.logo {
 		color: @secondarycolor;
-		font-size: 22px;
+		font-size: 30px;
 		text-align: left;
 		@media only screen and (min-width: 720px)and (max-width: 940px) {
 			text-align: center;
@@ -62,8 +62,10 @@ nav {
 							border-color: @primarycolor transparent transparent transparent;
 						}
 					}
+
 				}
 			}
+
 			@media only screen and (min-width: 720px) {
 				&:not(:last-child):after {
 					content: "/";
@@ -77,7 +79,11 @@ nav {
 				text-decoration: none;
 				text-transform: uppercase;
 				color: @linkcolor;
+						&:hover{
+				color: green;
 			}
+			}
+
 		}
 	}
 }
